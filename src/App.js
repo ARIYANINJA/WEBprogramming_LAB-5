@@ -12,14 +12,14 @@ function App() {
         </Typography>
       </header>
       <div className = "App-nav">
-        <ButtonGroup variant="text"
+       <ButtonGroup variant="contained"
         size = "large"
          color="secondary">
-  <Button>OVERVIEW</Button>
-  <Button>FEATURES</Button>
-  <Button>DETAILS</Button>
-  <Button>TECHNOLOGY</Button>
-  <Button>FAQ</Button>
+  <Button onClick ={()=>alert("YOU CLICKED OVERVIEW BUTTON")}>OVERVIEW</Button>
+  <Button onClick ={()=>alert("YOU CLICKED FEATURES BUTTON")}>FEATURES</Button>
+  <Button onClick ={()=>alert("YOU CLICKED DETAILS BUTTON")}>DETAILS</Button>
+  <Button onClick ={()=>alert("YOU CLICKED TECHNOLOGY BUTTON")}>TECHNOLOGY</Button>
+  <Button onClick ={()=>alert("YOU CLICKED FAQ BUTTON")}>FAQ</Button>
   </ButtonGroup>
   <div className = "Add-button">
         <Button onClick ={()=>alert("YOU CLICKED ADD BUTTON")} variant = "contained" color = "secondary"
