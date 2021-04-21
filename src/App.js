@@ -3,6 +3,15 @@ import './App.css';
 import Button from '@material-ui/core/Button'
 import Typography from '@material-ui/core/Typography'
 import ButtonGroup from '@material-ui/core/ButtonGroup'
+import {createMuiTheme} from '@material-ui/core/styles'
+import{orange} from '@material-ui/core/colors'
+const theme = createMuiTheme({
+  palette:{
+    primary:{
+      main: orange[50],
+    }
+  }
+})
 function App() {
   return (
     <div className="App">
@@ -14,7 +23,7 @@ function App() {
       <div className = "App-nav">
        <ButtonGroup variant="contained"
         size = "large"
-         color="secondary">
+         color="primary">
   <Button onClick ={()=>alert("YOU CLICKED OVERVIEW BUTTON")}>OVERVIEW</Button>
   <Button onClick ={()=>alert("YOU CLICKED FEATURES BUTTON")}>FEATURES</Button>
   <Button onClick ={()=>alert("YOU CLICKED DETAILS BUTTON")}>DETAILS</Button>
