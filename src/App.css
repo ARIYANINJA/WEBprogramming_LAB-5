@@ -19,7 +19,26 @@
   margin-top: -30px;
 }
 .main {
-  height: 63vh;
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border: solid 3px gray;
+}
+.main-left {
+  background-color: aqua;
+  height: 40vh;
+}
+.main-right-title {
+  margin-left: 5rem;
+  margin-top: 5rem;
+}
+.main-right-content {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-footer {
+  color: rgb(10, 165, 236);
+  padding-top: 2rem;
 }
 .footer {
   background-color: #7032eb;

@@ -3,6 +3,7 @@ import './App.css';
 import Button from '@material-ui/core/Button'
 import Typography from '@material-ui/core/Typography'
 import ButtonGroup from '@material-ui/core/ButtonGroup'
+import Logo from "./musicplayer.png";
 function App() {
   return (
     <div className="App">
@@ -31,9 +32,21 @@ function App() {
         </div>
       </div> 
       <main className = "main">
-        <Typography>
-          
+        <div className = "main-left">
+        <img src={Logo} alt="play button size" width="400" height="400" />
+        </div>
+        <div className  = "main-right-title"> 
+        <Typography variant = "h3">
+            FEATURES <Button variant="contained"></Button>
         </Typography>
+          <Typography variant = "h5">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt veniam, tempora voluptates possimus dignissimos officia, esse vitae sit exercitationem corrupti rerum fuga, est similique? Eum assumenda in accusamus cupiditate quas.
+          </Typography>
+          <hr></hr>
+          <Typography className = "main-footer" variant = "h3">
+            READ OUR FEATURES
+          </Typography>
+        </div>
       </main>
       <footer className = "footer">
         <Typography variant="h2" align="center" gutterBottom>
