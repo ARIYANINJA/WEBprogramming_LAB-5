@@ -36,7 +36,7 @@ function App() {
         </Typography>
       </main>
       <footer className = "footer">
-        <Typography variant="h6" align="center" gutterBottom>
+        <Typography variant="h2" align="center" gutterBottom>
           Footer
         </Typography>
       </footer>                
