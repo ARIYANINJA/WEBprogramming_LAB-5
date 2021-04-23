@@ -24,6 +24,8 @@
   flex-direction: row;
   justify-content: flex-start;
   border: solid 3px gray;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
 .main-left {
   background-color: aqua;
@@ -40,8 +42,14 @@
   color: rgb(10, 165, 236);
   padding-top: 2rem;
 }
+.Detail {
+  height: 10vh;
+  margin-left: 90vw;
+  margin-top: 1rem;
+}
 .footer {
   background-color: #7032eb;
   color: white;
-  height: 8vh;
+  height: 15vh;
+  padding-top: 5vh;
 }
