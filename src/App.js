@@ -3,15 +3,6 @@ import './App.css';
 import Button from '@material-ui/core/Button'
 import Typography from '@material-ui/core/Typography'
 import ButtonGroup from '@material-ui/core/ButtonGroup'
-import {createMuiTheme} from '@material-ui/core/styles'
-import{orange} from '@material-ui/core/colors'
-const theme = createMuiTheme({
-  palette:{
-    primary:{
-      main: orange[50],
-    }
-  }
-})
 function App() {
   return (
     <div className="App">
@@ -38,7 +29,17 @@ function App() {
            +
         </Button>
         </div>
-      </div>                 
+      </div> 
+      <main className = "main">
+        <Typography>
+          
+        </Typography>
+      </main>
+      <footer className = "footer">
+        <Typography variant="h6" align="center" gutterBottom>
+          Footer
+        </Typography>
+      </footer>                
     </div>
   );
 }

@@ -18,3 +18,14 @@
   margin-left: 95vw;
   margin-top: -30px;
 }
+.main {
+  height: 63vh;
+  width: 100vw;
+}
+.footer {
+  background-color: #7032eb;
+  line-height: 2rem;
+  color: white;
+  font-size: 50px;
+  height: 10vh;
+}
